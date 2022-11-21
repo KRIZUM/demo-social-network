@@ -1,0 +1,24 @@
+.login {
+    padding: 5px;
+    margin: 5px 0;
+    border-radius:10px;
+    border: 2px solid #eee;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+
+}
+
+.button button {
+    margin-top: 10px;
+    appearance: none;
+    border: 0;
+    border-radius: 5px;
+    background: #4676D7;
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 16px;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
