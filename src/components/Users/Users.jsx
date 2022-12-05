@@ -17,10 +17,10 @@ let Users = (props) => {
     let curPL = curP + 5;
     let slicedPages = pages.slice(curPF, curPL);
 
-    return <div>
-        <div className={styles.pages}>
+    return <div >
+        <div className={styles.pages} >
             {slicedPages.map(p => {
-                    return <span className={props.currentPage === p && styles.selectedPage}
+                    return <span className={props.currentPage === p && styles.selectedPage} key={p.id}
                                  onClick={(e) => {
                                      props.onPageChanged(p)
                                  }}> {p} </span>
@@ -50,11 +50,7 @@ let Users = (props) => {
                         <div className={styles.userName}>Name: {u.name}</div>
                         <div className={styles.userStatus}>Status: {u.status}</div>
                     </span>
-                    <span>
-                    <div className={styles.userLocation}>From: {"u.location.country"}, {'u.location.city'}</div>
-                </span>
-
-                </div>
+            </div>
             )
 
         }

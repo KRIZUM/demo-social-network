@@ -13,7 +13,7 @@ const PostSchema = Yup.object().shape({
 
 const MyPosts = React.memo(props => {
     let state = props.profilePage;
-    let postsElements = state.posts.map(p => <Post message={p.message} Like={p.like}/>)
+    let postsElements = state.posts.map(p => <Post message={p.message} Like={p.like} key={p.id}/>)
 
     return (
         <div className={s.postsBlock}>

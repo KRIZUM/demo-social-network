@@ -5,3 +5,35 @@
 .avaBlock img {
   width: 20%;
 }
+
+.inputWrapper {
+  width: 100%;
+  position: relative;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-family: "Helvetica", sans-serif;
+}
+
+.fileInput {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  font-family: "Helvetica", sans-serif;
+}
+
+.labelBtn {
+  margin-top: 15px;
+  cursor: pointer;
+  font-size: 15px;
+  letter-spacing: 1px;
+  background-color: #4676D7;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  font-family: "Helvetica", sans-serif;
+}
+
+.contacts{
+  padding-left: 10px;
+}
